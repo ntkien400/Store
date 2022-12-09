@@ -1,0 +1,146 @@
+[
+  {
+    "Name": "HP EliteBook 630",
+    "Description": "Laptop HP Elitebook được trang bị bộ vi xử lý Intel Core i5 1235U sở hữu cấu trúc 10 nhân, 12 luồng tối ưu hiệu năng, hỗ trợ người dùng xử lý nhanh gọn mọi tác vụ văn phòng",
+    "Price": 27000000.00,
+    "PictureUrl": "images/products/laptop-hp1.png",
+    "CategoryId": 1,
+    "BrandId": 1
+  },
+  {
+    "Name": "HP Gaming OMEN 16",
+    "Description": "OMEN 16-b0127TX 4Y0W7PA mang đến một thiết kế vô cùng trang nhã với mặt A đen bóng cùng logo Omen đặt tại trung tâm của bề mặt, không hầm hố nhưng vẫn rất gaming",
+    "Price": 33000000.00,
+    "PictureUrl": "images/products/laptop-hp2.png",
+    "CategoryId": 1,
+    "BrandId": 1
+  },
+  {
+    "Name": "Dell Pavilion 15",
+    "Description": "Chiếc laptop này sở hữu cùng nắp lưng và chiếu nghỉ tay được chế tác từ kim loại chắc chắn sẽ cùng bạn di chuyển đến bất kỳ đâu, hỗ trợ tốt cho mọi nhu cầu về công việc hay giải trí của người dùng.",
+    "Price": 18000000.00,
+    "PictureUrl": "images/products/laptop-dell1.png",
+    "CategoryId": 1,
+    "BrandId": 2
+  },
+  {
+    "Name": "Dell XPS 9520",
+    "Description": "Khung máy được gia cố bằng hợp kim magnesium chắc chắn. Với mặt trên được phủ một lớp carbon fiber lấy cảm hứng từ công nghệ hàng không vũ trụ đã quá quen thuộc với các dòng XPS trước đây",
+    "Price": 42000000.00,
+    "PictureUrl": "images/products/laptop-dell2.png",
+    "CategoryId": 1,
+    "BrandId": 2
+  },
+  {
+    "Name": "Asus TUF",
+    "Description": "Asus TUF – một trong những dòng Laptop Gaming hàng đầu trên thị trường với hiệu năng mạnh mẽ cùng thiết kế hầm hố",
+    "Price": 25000000.00,
+    "PictureUrl": "images/products/laptop-asus1.png",
+    "CategoryId": 1,
+    "BrandId": 4
+  },
+  {
+    "Name": "Acer Aspire",
+    "Description": "Laptop Acer Aspire 5 thuộc dòng laptop văn phòng phục vụ nhu cầu học tập làm việc chuyên dụng với thiết kế nguyên bản độc đáo mới lạ, màn hình ghi điểm với độ mỏng thời trang cho người dùng",
+    "Price": 15000000.00,
+    "PictureUrl": "images/products/laptop-acer1.png",
+    "CategoryId": 1,
+    "BrandId": 5
+  },
+  {
+    "Name": "Dell Wireless Mouse",
+    "Description": "Kết nối chế độ kép kết hợp không dây 2.4GHz và kết nối Bluetooth 5.0 để bạn có thể ghép nối và kết nối với hầu hết mọi PC thông qua chế độ ưa thích",
+    "Price": 300000.00,
+    "PictureUrl": "images/products/mouse-dell1.png",
+    "CategoryId": 2,
+    "BrandId": 2
+  },
+  {
+    "Name": "TUF Gaming M3",
+    "Description": "Chuột chơi game RGB có dây TUF Gaming M3 thiết kế công thái học, với cảm biến 7000- dpi, trọng lượng nhẹ, lớp mạ hai lớp, công tắc siêu bền, các nút bấm lập trình và Aura Sync",
+    "Price": 700000.00,
+    "PictureUrl": "images/products/mouse-asus1.png",
+    "CategoryId": 2,
+    "BrandId": 4
+  },
+  {
+    "Name": "TUF Gaming M5",
+    "Description": "Là một chuột chơi game nhỏ gọn dùng được cả hai tay đem lại sự tiện nghi, hiệu suất và độ tin cậy mà các game thủ mong muốn",
+    "Price": 920000.00,
+    "PictureUrl": "images/products/mouse-asus2.png",
+    "CategoryId": 2,
+    "BrandId": 4
+  },
+  {
+    "Name": "Lenovo Gaming L1",
+    "Description": "Bàn phím lenovo chất lượng cao, bền bỉ",
+    "Price": 233000.00,
+    "PictureUrl": "images/products/keyboard-lenovo1.png",
+    "CategoryId": 4,
+    "BrandId": 3
+  },
+  {
+    "Name": "Lenovo Gaming L5",
+    "Description": "Bàn phím lenovo chất lượng cao, bền bỉ với nhiều tính năng nâng cấp",
+    "Price": 315000.00,
+    "PictureUrl": "images/products/keyboard-lenovo2.png",
+    "CategoryId": 4,
+    "BrandId": 3
+  },
+  {
+    "Name": "TUF Gaming K1",
+    "Description": "Bàn phím với thiết kế có phần kê cổ tay tiện dụng, có thể tháo rời để mang lại sự thoải mái dài lâu",
+    "Price": 1200000.00,
+    "PictureUrl": "images/products/keyboard-asus1.png",
+    "CategoryId": 4,
+    "BrandId": 4
+  },
+  {
+    "Name": "TUF Gaming K5",
+    "Description": "Được cải tiến để kết hợp các ưu điểm mong muốn của cả công tắc phím cơ học và các phím thông thường, TUF Gaming K5 trang bị các công tắc Mech-Brane mang lại cảm giác chơi game mới",
+    "Price": 1400000.00,
+    "PictureUrl": "images/products/keyboard-asus2.png",
+    "CategoryId": 4,
+    "BrandId": 4
+  },
+  {
+    "Name": "Nitro ED 1",
+    "Description": "Màn hình Acer cao cấp",
+    "Price": 2500000.00,
+    "PictureUrl": "images/products/display-acer1.png",
+    "CategoryId": 3,
+    "BrandId": 5
+  },
+  {
+    "Name": "UltraSharp 24",
+    "Description": "Màn hình Dell cao cấp 24 inch",
+    "Price": 7900000.00,
+    "PictureUrl": "images/products/display-dell1.png",
+    "CategoryId": 3,
+    "BrandId": 2
+  },
+  {
+    "Name": "UltraSharp 27",
+    "Description": "Màn hình Dell cao cấp 27 inch",
+    "Price": 9900000.00,
+    "PictureUrl": "images/products/display-dell2.png",
+    "CategoryId": 3,
+    "BrandId": 2
+  },
+  {
+    "Name": "Studio Display",
+    "Description": "Màn hình Apple cao cấp",
+    "Price": 32000000.00,
+    "PictureUrl": "images/products/display-apple1.png",
+    "CategoryId": 3,
+    "BrandId": 6
+  },
+  {
+    "Name": "Pro Display XDR",
+    "Description": "Màn hình Apple cao cấp cho dân đồ hoạ",
+    "Price": 50000000.00,
+    "PictureUrl": "images/products/display-apple2.png",
+    "CategoryId": 3,
+    "BrandId": 6
+  }
+]
