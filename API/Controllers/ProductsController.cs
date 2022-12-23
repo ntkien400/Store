@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using API.Dtos;
 using API.Errors;
+using API.Helpers;
 using AutoMapper;
 using Core.Entities;
 using Core.IRepository;
@@ -28,12 +29,14 @@ namespace API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IReadOnlyList<ProductReturnDto>>> Getproducts()
+        public async Task<ActionResult<IReadOnlyList<ProductReturnDto>>> Getproducts([FromQuery]ProductSpecParams productParams)
         {
-            var spec = new ProductWithCateAndBrandSpecification();
+            var spec = new ProductWithCateAndBrandSpecification(productParams);
+            var countSpec = new ProductWithFilterForCountSpecification(productParams);
+            var totalItems = await _productRepo.CountAsync(spec);
             var products = await _productRepo.ListWithSpec(spec);
-            return Ok(_mapper
-                .Map<IReadOnlyList<Product>, IReadOnlyList<ProductReturnDto>>(products));
+            var data = _mapper.Map<IReadOnlyList<Product>, IReadOnlyList<ProductReturnDto>>(products); 
+            return Ok(new Pagination<ProductReturnDto>(productParams.PageIndex, productParams.PageSize, totalItems, data));
         }
 
         [HttpGet("{id}")]
